@@ -1,0 +1,41 @@
+.Home{
+  
+    width: 100%;
+    height: 100vh;
+    background: rgb(238,174,202);
+    background: linear-gradient(83deg, rgba(238,174,202,1) 0%, rgba(145,144,120,1) 57%, rgba(206,203,175,1) 85%, rgba(171,233,148,1) 100%);
+}
+
+.container{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#title{
+    font-size: 80px;
+}
+
+@keyframes moveButton {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .btn-moving {
+    animation: moveButton 2s infinite;
+  }
+  
+  

@@ -1,0 +1,14 @@
+.MainPage{
+
+
+padding: 5px;
+
+
+}
+
+.pages{
+    display: flex;
+    gap: 20px;
+}
+
+
