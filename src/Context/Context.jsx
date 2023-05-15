@@ -8,10 +8,10 @@ export const Context1 = createContext();
 
 export const Context = ({children}) => {
 
+const [showcategories, setshowcategories] = useState(false)
 
 
-
-const data=[]
+const data=[showcategories, setshowcategories]
 
 
 

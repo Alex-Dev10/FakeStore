@@ -2,8 +2,16 @@ import React from 'react';
 import './Navbar.css';
 import Logo from './Recursos/Logo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { useContext } from 'react';
+import { Context1 } from '../../../Context/Context';
 
 function NavbarComponent() {
+
+
+const [showcategories, setshowcategories] = useContext(Context1)
+
+
+
   return (
     <div className="containerNavbar">
 
@@ -17,7 +25,7 @@ function NavbarComponent() {
           </a>
         </li>
 
-        <li className="nav-item">
+        <li className="nav-item" onClick={()=>setshowcategories(!showcategories)} >
           <a className="nav-link" href="#">
             Categories
           </a>

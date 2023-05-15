@@ -3,8 +3,6 @@ import NavbarComponent from './Nav/NavbarComponent'
 import './Page.css'
 import { Products } from './Products/Products'
 
-import { useContext } from 'react'
-import { Context1 } from '../../Context/Context'
 
 
 export const Page = () => {
